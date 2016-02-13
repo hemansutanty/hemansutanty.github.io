@@ -1,0 +1,62 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+hr{
+	margin-top: -5px;
+	height: 10px;
+	background-color: #2196F3;
+	float: top;
+}
+.page-container{
+	padding-left: 8em;
+	padding-right: 8em; 
+}
+.navbar ul li{
+	display: inline;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.navbar ul{
+	text-transform: uppercase;
+	word-spacing: 50px;
+	letter-spacing: 3px;
+}
+ul{
+	list-style-type:none;
+}
+.navbar .right-items{
+	text-align: right;
+}
+.profile-pic{
+	height: 18em;
+	width: 18em;
+	border: 0.5em solid #2196F3; 
+	border-radius: 50%;
+}
+.bio{
+	text-align: center;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	line-height: 1em;
+}
+#name{
+	color: #2196F3;
+	text-decoration: underline;
+}
+.online-presence{
+	text-align: center;
+	word-spacing: 50px;
+	font-size: 2em;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{
+	color: #2196F3;
+	text-decoration: none;
+}
+#big-quote{
+	font-size: 1.5em;
+	text-justify: sup
+}
