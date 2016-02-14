@@ -1,7 +1,7 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-hr{
+.top-line{
 	margin-top: -5px;
 	height: 10px;
 	background-color: #2196F3;
@@ -21,7 +21,7 @@ hr{
 	word-spacing: 50px;
 	letter-spacing: 3px;
 }
-ul{
+ul .no-bullets{
 	list-style-type:none;
 }
 .navbar .right-items{
@@ -63,4 +63,12 @@ a:hover{
 .copyrights{
 	text-align: center;
 	color: #9E9E9E;
+}
+.separator{
+	height:2px;
+	background-color: #2196F3;
+}
+.bold-headers{
+	font-weight: bold;
+	letter-spacing: 2px;
 }
