@@ -67,8 +67,16 @@ a:hover{
 .separator{
 	height:2px;
 	background-color: #2196F3;
+	margin-top: -1px;
 }
 .bold-headers{
 	font-weight: bold;
 	letter-spacing: 2px;
+}
+.tools{
+	font-size: 4em;
+	text-align: center;
+}
+.big-bold-headers{
+	font-size: 1.2em;
 }

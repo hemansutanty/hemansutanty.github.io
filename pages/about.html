@@ -7,6 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../css/font-mfizz.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </head>
 <body>
 	<hr class="top-line"/>
@@ -28,7 +33,7 @@
 		</div>
 		<br><br>
 		<div class="work-details">
-			<div class="bold-headers">
+			<div class="bold-headers big-bold-headers">
 				<i class="fa fa-briefcase"></i>&nbsp;Organizational Experience
 			</div>
 			<hr class="separator"/>
@@ -45,7 +50,7 @@
 			</ul>
 		</div>
 		<div class="academic-details">
-			<div class="bold-headers">
+			<div class="bold-headers big-bold-headers">
 				<i class="fa fa-graduation-cap"></i>&nbsp;Academic Details
 			</div>
 			<hr class="separator"/>
@@ -85,22 +90,69 @@
 		</div>
 
 		<div class="skills-arsenal">
-			<div class="bold-headers">
-				<i class="fa fa-briefcase"></i>&nbsp;Organizational Experience
+			<div class="bold-headers big-bold-headers">
+				<i class="fa fa-gavel"></i>&nbsp;Skills Arsenal
 			</div>
 			<hr class="separator"/>
 			<div class="bold-headers">
-				Infosys
+				Languages
 			</div>
-			<ul>
-				<li>
-					Currently working as Systems Engineer in Infosys since September 28, 2015.
-				</li>
-				<li>
-					Worked as Systems Engineer Trainee in Infosys from May 25, 2015 to September 27, 2015.
-				</li>
-			</ul>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="icon-c" title="C"></i></div>
+				<div class="col-lg-3"><i class="icon-cplusplus" title="C++"></i></div>
+				<div class="col-lg-3"><i class="icon-java" title="Java"></i></div>
+				<div class="col-lg-3"><i class="icon-html" title="HTML"></i></div>
+			</div>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="icon-css" title="CSS"></i></div>
+			</div>
+			<div class="bold-headers">
+				Backend
+			</div>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="icon-tomcat" title="Apache Tomcat"></i></div>
+				<div class="col-lg-3"><i class="icon-mysql" title="MySQL"></i></div>
+				<div class="col-lg-3"><i class="icon-oracle" title="Oracle 10g"></i></div>
+				<div class="col-lg-3"><i class="icon-postgres-alt" title="PostGres SQL"></i></div>
+			</div>
+			<div class="bold-headers">
+				Frameworks
+			</div>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="devicon-bootstrap-plain" title="Bootstrap"></i></div>
+				<div class="col-lg-3"><i class="devicon-jquery-plain" title="jQuery"></i></i></div>
+				
+			</div>
+			<div class="bold-headers">
+				Build Tools and Others
+			</div>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="icon-maven" title="Maven"></i></div>
+				<div class="col-lg-3"><i class="devicon-git-plain" title="Git"></i></i></div>
+				<div class="col-lg-3"><i class="devicon-less-plain-wordmark" title="Less"></i></div>
+			</div>
+			<div class="bold-headers">
+				Softwares and IDE's
+			</div>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="devicon-illustrator-line" title="Adobe Illustrator"></i></div>
+				<div class="col-lg-3"><i class="devicon-photoshop-line" title="Adobe Photoshop"></i></div>
+			</div>
+			<div class="bold-headers">
+				Operating Systems
+			</div>
+			<div class="row tools">
+				<div class="col-lg-3"><i class="devicon-windows8-original" title="Windows"></i></div>
+				<div class="col-lg-3"><i class="devicon-ubuntu-plain" title="Ubuntu"></i></div>
+			</div>
 		</div>
 	</div>
+  	<script>
+  		$(function() {
+    		$( document ).tooltip({
+      			track: true
+    		});
+  		});
+  </script>
 </body>
 </html>
