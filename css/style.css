@@ -80,3 +80,33 @@ a:hover{
 .big-bold-headers{
 	font-size: 1.2em;
 }
+.icon{
+	height: 110%;
+	width: 110%;
+	padding-left: 40%;
+	display: center;
+}
+.stats{
+	text-align: center;
+}
+.circle{
+	margin: 0 auto;
+	height: 120px;
+	width: 120px;
+	border:2px solid #2196F3;
+	border-radius: 50%;
+}
+.text-circle{
+	padding-top: 8%;
+	font-size: 2em;
+	line-height: 1px;
+}
+.svg-icon{
+	color: #2196F3;
+	height: 50px;
+	width: 50px;
+}
+.eclipse-icon{
+	height: 28%;
+	width: 28%;
+}
