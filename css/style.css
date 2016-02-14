@@ -28,8 +28,8 @@ ul{
 	text-align: right;
 }
 .profile-pic{
-	height: 18em;
-	width: 18em;
+	height: 15em;
+	width: 15em;
 	border: 0.5em solid #2196F3; 
 	border-radius: 50%;
 }
@@ -59,4 +59,8 @@ a:hover{
 #big-quote{
 	font-size: 1.5em;
 	text-justify: sup
+}
+.copyrights{
+	text-align: center;
+	color: #9E9E9E;
 }
