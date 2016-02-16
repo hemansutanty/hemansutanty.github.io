@@ -116,11 +116,16 @@ a:hover{
 	width: 80%;
 	height: 250px;
 	border-bottom: 6px solid #2196F3;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	border-radius: 3px 3px 0px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .project-board-body{
 	padding: 10px;
 }
 .project-tools{
 	color: #2196F3;
-	margin-top: 4px;
+	display: flex;
+  	align-items: flex-end;
 }
