@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How to host with Github Pages-Hemansu Kumar Tanty</title>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/fonts.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+	<hr class="top-line"/>
+	<div class="page-container">
+		<div class="navbar row">
+			<div class="col-lg-5">
+				<ul>
+					<a href="../index.html"><li><i class="fa fa-home"></i></li></a>
+				</ul>
+			</div>
+			<div class="col-lg-7 right-items">
+				<ul class="no-bullets">
+					<a href="../blog.html" class="selected"><li>Blog</li></a>
+					<a href="../work.html"><li>Work</li></a>
+					<a href="../about.html"><li>About</li></a>
+					<a target="_blank" href="https://drive.google.com/file/d/0B4qkGP8xigQEMWtoenVobmJvQzQ/view?usp=sharing"><li>Resume</li></a>
+				</ul>
+			</div>
+		</div>
+		<br><br>
+		<div class="posts row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
+				<div class="post">
+					<div class="post-header">How to host a Website with Github Pages</div>
+					<div class="date">26 February, 2016</div>
+					<br>
+					<hr class="separator"/>
+					<div class="post">
+						Do you want to host your static website for free. You can do that with the help of Github Pages. Though we have restriction to host only HTML, CSS and JavaScript codes for your website, but it is quite useful when you want your static content to be hosted like your postfolio website, or your own blog etc. without paying a dime.
+
+						Githup Pages is an easier solution rather than going for dull process of setting up a hosting package if your content is static. For using Github Pages you need to have an account in Github[Its free]. If you do not have one, Sign up for an account in Github before following the steps to host your website. Also you need the github client in your PC.(We'll use terminal or git bash for our process).
+
+						<h3>Steps: (Windows)</h3>
+						<ul>
+						<li>
+							Login to your Github account and Create a new repository named username.github.io where username is your github username.
+						</li>
+						<li>
+							Go to the folder in your PC from where you want to manage your site and open git bash there(Right Click). Now type
+							<br>
+							git clone https://github.com/username/username.github.io
+
+							and press Enter.
+						</li>
+						<li>
+							Wait for some time to have your repository cloned locally. After completion you will see a folder named username.github.io where you opened your git bash.
+						</li>
+						<li>
+							Go inside the folder and create a file named <b>index.html</b>. It is important that the file name should be index.html which would serve as your home page.
+						</li>
+						<li>
+							Open the index.html page and write your content. lets say you write Hello World! inside h2 tags for test purpose. Save the file. 
+						</li>
+						<li>
+							Open git bash inside this folder(inside username.github.io) and and run the following commands in following order.
+							<br> 
+							1. git add *
+							<br>
+							2. git commit -m "Initial commit"
+							<br>
+							3. git push -u origin master
+						</li>
+						<li>
+							You will be prompted to enter username and password for your github account. Enter them and you are done.
+						</li>
+						<li>
+							Open up your browser and type username.github.io and Press Enter and voila you see your site live.
+						</li>
+						<li>
+							Now to complete your website go inside your username.github.io folder in your PC work on you HTML,CSS and Javascript codes and when you are satisfied or want to see some of the changes live all you have to do is th add,commit and push steps in order and see the changes live. The message in commit step(above we have "Initial commit") can be any message of your choice like "Added blog page to the website". 
+						</li>
+						</ul>
+
+						<a href="https://pages.github.com/" class="links">Here is the official documentation with Pictures</a>
+						<br>
+						If you want to learn about Git and Github. <a href="https://git-scm.com/" class="links">Check out here</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="footer">
+			<div class="online-presence">
+				<a target="_blank" href="https://github.com/hemansutanty"><i class="fa fa-github" ></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/hemansu-tanty-28693587"><i class="fa fa-linkedin"></i></a>
+				<a target="_blank" href="https://twitter.com/hemansutanty"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" href="https://www.facebook.com/hemansu.tanty"><i class="fa fa-facebook"></i></a>
+				<a target="_blank" href="mailto:hemansu.tanty@gmail.com"><i class="fa fa-envelope"></i></a>
+			</div>
+			<br>
+			<div class="copyrights">
+				&copy;Hemansu Kumar Tanty
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
