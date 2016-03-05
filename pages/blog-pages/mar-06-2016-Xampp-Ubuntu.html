@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xampp-Ubuntu first time tips-Hemansu Kumar Tanty</title>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/fonts.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+	<hr class="top-line"/>
+	<div class="page-container">
+		<div class="navbar row">
+			<div class="col-lg-5">
+				<ul>
+					<a href="../../index.html"><li><i class="fa fa-home"></i></li></a>
+				</ul>
+			</div>
+			<div class="col-lg-7 right-items">
+				<ul class="no-bullets">
+					<a href="../blog.html" class="selected"><li>Blog</li></a>
+					<a href="../work.html"><li>Work</li></a>
+					<a href="../about.html"><li>About</li></a>
+					<a target="_blank" href="https://drive.google.com/file/d/0B4qkGP8xigQES3ROSGItbTV0Ymc/view?usp=sharing"><li>Resume</li></a>
+				</ul>
+			</div>
+		</div>
+		<br><br>
+		<div class="posts row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
+				<div class="post">
+					<div class="post-header">Xampp-Ubuntu First time Tips</div>
+					<div class="date">6 March, 2016</div>
+					<br>
+					<hr class="separator"/>
+					<div class="post">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have installed Xampp in Ubuntu. The first time you try running Xampp services using <b>sudo /opt/lampp/lampp start</b> and see that apache services is not starting, Don't panic it's because you already have an instance of Apache 2 running. And am talking about Apache 2 instance in Ubuntu 14.04 LTS version because that's the one I am using. I do not have idea about previous versions and am pretty sure that they have included Apache in the later versions in Ubuntu till now.</p>
+						
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So before you start using Xampp services, what you want to check is if you already have an instance of Apache running. You can do that by opening a browser and try visiting <b>http://localhost/</b>. You can see an Ubuntu Apache Page. If you see one then you know for sure that you have an Apache 2 running. Now you can use this instance for your projects. But if you don't want to and want to use Xampp's Apache then open terminal and type in <b>sudo /etc/init.d/apache2 stop</b>. This should do the trick. Open the browser and try visiting localhost again if you see a Problem page then you are successful in stopping Ubuntu's Apache Instance. Now in terminal type in <b>sudo /opt/lampp/lampp start</b> to start Xampp's services and open <b>http://localhost/</b>. You should be able to see a Xampp welcome page now. You can acess phpMyadmin to see the Databases. To stop Xampp services type <b>sudo /opt/lampp/lampp stop</b>.</p>
+						
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The default user name for MySQL services is root and password is empty i.e. ''. So to change that open your terminal and type in <b>/opt/lampp/bin/mysqladmin --user=root password "gue55me"</b> where gue55me is your password. Ensure that your MySQL server is running while you are changing your password. There is one issue after you do this. Try going for localhost again and click on phpMyAdmin tab and you will see an error not allowing you to use MySQL services. Well we have a solution for that too. Navigate to your Xampp installation directory i.e. <b> /opt/lampp/phpmyadmin</b>. open a terminal there(Right Click) and type <b>sudo gedit config.inc.php</b> .Provide your password(Your Ubuntu user password) and hit Enter. Now you'll see a configuration file. Find a line in that file like this <b>$cfg['Servers'][$i]['password'] = '';</b> and provide your Xampp MySql password inside quotes like this <b>$cfg['Servers'][$i]['password'] = 'password';</b>. Save and Exit and you are done now. To confirm if everything is working visit localhost and try accessing phpMyadmin tab. If you do not find any issues, give yourself a pat and enjoy Xampp services.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="footer">
+			<div class="online-presence">
+				<a target="_blank" href="https://github.com/hemansutanty"><i class="fa fa-github" ></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/hemansu-tanty-28693587"><i class="fa fa-linkedin"></i></a>
+				<a target="_blank" href="https://twitter.com/hemansutanty"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" href="https://www.facebook.com/hemansu.tanty"><i class="fa fa-facebook"></i></a>
+				<a target="_blank" href="mailto:hemansu.tanty@gmail.com"><i class="fa fa-envelope"></i></a>
+			</div>
+			<br>
+			<div class="copyrights">
+				&copy;Hemansu Kumar Tanty
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
