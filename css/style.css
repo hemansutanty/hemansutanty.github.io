@@ -1,5 +1,6 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	background-image: url('../images/shattered.png');
 }
 .top-line{
 	margin-top: -5px;
@@ -143,10 +144,6 @@ ul .no-bullets{
 .navbar .selected,.date{
 	color: #2196F3;
 }
-.reference,.reference:hover{
-	color: inherit;
-	text-decoration: underline;
-}
 .posts a, .posts a:visited, .postsposts a:hover, .posts a:active {
   color: inherit;
   text-decoration: none;
@@ -158,3 +155,4 @@ ul .no-bullets{
 	text-decoration: underline;
 	color: #2196F3;
 }
+
