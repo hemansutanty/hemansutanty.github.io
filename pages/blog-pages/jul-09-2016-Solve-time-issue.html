@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solve time difference across OS-Hemansu Kumar Tanty</title>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/fonts.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+	<hr class="top-line"/>
+	<div class="page-container">
+		<div class="navbar row">
+			<div class="col-lg-5">
+				<ul>
+					<a href="../../index.html"><li><i class="fa fa-home"></i></li></a>
+				</ul>
+			</div>
+			<div class="col-lg-7 right-items">
+				<ul class="no-bullets">
+					<a href="../blog.html" class="selected hvr-underline-from-center"><li>Blog</li></a>
+					<a href="../work.html" class="hvr-underline-from-center"><li>Work</li></a>
+					<a href="../about.html" class="hvr-underline-from-center"><li>About</li></a>
+					<a target="_blank" href="https://drive.google.com/file/d/0B4qkGP8xigQEblA2SktpTUdDMUE/view?usp=sharing" class="hvr-underline-from-center"><li>Resume</li></a>
+				</ul>
+			</div>
+		</div>
+		<br><br>
+		<div class="posts row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
+				<div class="post">
+					<div class="post-header">Solve time difference issue in Windows 7 and Ubuntu dual boot</div>
+					<div class="date">6 March, 2016</div>
+					<br>
+					<hr class="separator"/>
+					<div class="post">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you are whacked out seeing the time difference in your system when you switch between your operating systems especially between Windows 7 and Ubuntu 16.04, the you are not the only one. I have faced the similar issue and I will share the solution which worked out for me. Feel free to try it out or you can revert the changes.</p>
+						<p>This issue occurs because Ubuntu stores time on the hardware clock as UTC by default but Microsoft stores it as local time.</p>
+						<p>What we will try is to make Ubuntu store time on hardware clock as local time.Log in to Ubuntu and run the following command :-<b>timedatectl set-local-rtc 1</b>.To check if Ubuntu uses localtime run the following command:-<b>timedatectl</b>.It should display "RTC in local TZ: yes". Now try switching your Operating Systems and see if the issue has been solved.</p>
+						<p>If the issue is not solved you can revert changes by running the following command :-<b>timedatectl set-local-rtc 0</b>.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="footer">
+			<div class="online-presence">
+				<a target="_blank" href="https://github.com/hemansutanty"><i class="fa fa-github" ></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/hemansu-tanty-28693587"><i class="fa fa-linkedin"></i></a>
+				<a target="_blank" href="https://twitter.com/hemansutanty"><i class="fa fa-twitter"></i></a>
+				<a target="_blank" href="https://www.facebook.com/hemansu.tanty"><i class="fa fa-facebook"></i></a>
+				<a target="_blank" href="mailto:hemansu.tanty@gmail.com"><i class="fa fa-envelope"></i></a>
+			</div>
+			<br>
+			<div class="copyrights">
+				&copy;Hemansu Kumar Tanty
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
