@@ -3,7 +3,7 @@ My personal Website
 [Head over here](http://hemansutanty.github.io/)
 
 
-###The MIT License (MIT)
+### The MIT License (MIT)
 
 Copyright (c) 2016 Hemansu Kumar Tanty
 
