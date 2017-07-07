@@ -82,8 +82,11 @@ ul .no-bullets{
 	letter-spacing: 2px;
 }
 .tools{
-	font-size: 4em;
-	text-align: center;
+	font-size: 1em;
+}
+.tools ul li{
+	width: auto;
+	float: left;
 }
 .big-bold-headers{
 	font-size: 1.2em;
