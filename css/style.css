@@ -87,6 +87,7 @@ ul .no-bullets{
 .tools ul li{
 	width: auto;
 	float: left;
+	margin-right: 5em;
 }
 .big-bold-headers{
 	font-size: 1.2em;
