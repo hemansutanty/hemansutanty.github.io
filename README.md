@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/hemansutanty/hemansutanty.github.io.svg?branch=master)](https://travis-ci.com/hemansutanty/hemansutanty.github.io)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 My personal Website
 
