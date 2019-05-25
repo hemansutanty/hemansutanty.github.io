@@ -1,3 +1,5 @@
+https://travis-ci.com/hemansutanty/hemansutanty.github.io.svg?branch=master
+
 My personal Website
 
 [Head over here](http://hemansutanty.github.io/)
