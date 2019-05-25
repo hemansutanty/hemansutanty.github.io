@@ -1,4 +1,4 @@
-[![Build Status]https://travis-ci.com/hemansutanty/hemansutanty.github.io.svg?branch=master
+[![Build Status](https://travis-ci.com/hemansutanty/hemansutanty.github.io.svg?branch=master)](https://travis-ci.com/hemansutanty/hemansutanty.github.io)
 
 My personal Website
 
